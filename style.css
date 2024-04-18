@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F2167;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li img {
+    max-width: 20px; /* Adjust the size of the icons as needed */
+    margin-right: 10px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container-page {
+    margin: 50px;
+    align-items: center; /* Center vertically */
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.tombol {
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3559E0;
+}
+
+.m-t30 {
+    margin-top: 30px;
+}
+
+.flex {
+    display: flex;
+}
+.m-50{
+    margin: 50px;
+}
+.w-10{
+    width: 700px;
+}
+.w-40{
+    width: 65%;
+}
+.footer {
+    background-color: #0F2167;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
